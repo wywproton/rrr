@@ -1,4 +1,5 @@
-'''PySimpleGUI是一个基于PyQt5的Python GUI库，可以使用PyQt5 Designer生成的界面代码。以下是一个简单的示例，演示如何使用PySimpleGUI导入PyQt5 Designer生成的界面代码：
+'''PySimpleGUI是一个基于PyQt5的Python GUI库，可以使用PyQt5 Designer生成的界面代码。
+以下是一个简单的示例，演示如何使用PySimpleGUI导入PyQt5 Designer生成的界面代码：
 
 首先，使用PyQt5 Designer创建一个名为`my_ui.ui`的界面文件，并保存到磁盘上。
 
@@ -29,7 +30,10 @@ window.show()
 
 sys.exit(app.exec_())
 '''
-在上面的示例中，我们首先使用`loadUi()`函数从`my_ui.ui`文件中加载界面。然后，我们创建一个新的PySimpleGUI窗口，并将PyQt5 Designer生成的界面添加到窗口中。最后，我们创建一个按钮，用于关闭窗口，并将其添加到窗口中。
+在上面的示例中，我们首先使用`loadUi()`函数从`my_ui.ui`文件中加载界面。
+然后，我们创建一个新的PySimpleGUI窗口，并将PyQt5 Designer生成的界面添加到窗口中。
+最后，我们创建一个按钮，用于关闭窗口，并将其添加到窗口中。
 
-请注意，在使用PySimpleGUI导入PyQt5 Designer生成的界面代码时，需要确保PySimpleGUI版本与PyQt5版本相匹配。否则，可能会出现兼容性问题。
+请注意，在使用PySimpleGUI导入PyQt5 Designer生成的界面代码时，
+需要确保PySimpleGUI版本与PyQt5版本相匹配。否则，可能会出现兼容性问题。
 '''
